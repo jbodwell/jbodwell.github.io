@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+  {{ if .Date }}<div>{{ .Date.Format "January 2, 2006" }}</div>{{ end }}
+  <div>{{ .Content }}</div>
+  <p><a href="{{ "/posts/" | relURL }}">← Back to Archive</a></p>
+</article>
+{{ end }}
+

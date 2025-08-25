@@ -1,0 +1,14 @@
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.5;
+  max-width: 740px;
+  margin: auto;
+  padding: 1rem;
+  background: #fff;
+  color: #000;
+}
+a { color: #00f; }
+a:visited { color: #551A8B; }
+h1, h2, h3 { margin-top: 1.2rem; }
+hr { border: none; border-top: 1px solid #000; }
+

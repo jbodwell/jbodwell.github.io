@@ -1,0 +1,16 @@
+baseURL = 'https://josephbodwell.com/'
+languageCode = 'en-us'
+title = 'My Blog'
+
+[params]
+  author = 'Joseph Bodwell'
+  description = 'A minimal art blog'
+  showDates = true
+  useSummary = true
+
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
